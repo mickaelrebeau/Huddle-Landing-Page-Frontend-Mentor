@@ -1,0 +1,230 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Poppins:wght@400;600&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    user-select: none;
+}
+
+body {
+    height: 100%;
+    width: 1440px;
+    padding: 30px;
+    font-family: 'Open Sans', sans-serif;
+    background-color: hsl(257, 40%, 49%);
+    background-image: url(./images/bg-desktop.svg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100%;
+}
+
+main {
+    width: 100%;
+    height: 600px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.images {
+    height: 100%;
+    padding: 20px;
+}
+
+.logo {
+    width: 100%;
+}
+
+.mockup {
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+
+.content {
+    margin: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+h1 {
+    width: 470px;
+    text-align: left;
+    color: white;
+    font-size: 38px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+p {
+    width: 520px;
+    padding: 3px;
+    margin-bottom: 20px;
+    font-size: 18px;
+    font-weight: 400;
+    text-align: left;
+    color: white;
+}
+
+button {
+    padding: 20px 80px;
+    border: none;
+    border-radius: 30px;
+    box-shadow: 2px 2px 5px 1px rgba(0, 0, 0, 0.3);
+    color: hsl(257, 40%, 49%);
+    font-weight: 400;
+}
+
+button:hover {
+    color: white;
+    background-color: hsl(300, 69%, 71%);
+}
+
+footer {
+    padding-right: 60px;
+    margin-top: 0;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+footer .social {
+    width: 40px;
+    aspect-ratio: 1/1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10px;
+    border: 1px solid;
+    border-radius: 50%;
+    color: white;
+}
+
+footer .social:hover {
+    color: hsl(300, 69%, 71%);
+}
+
+ion-icon {
+    font-size: 24px;
+}
+
+
+@media screen and (max-width: 600px) {
+    
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        user-select: none;
+    }
+
+    body {
+        height: 100%;
+        width: 100%;
+        padding: 30px;
+        font-family: 'Open Sans', sans-serif;
+        background-color: hsl(257, 40%, 49%);
+        background-image: url(./images/bg-mobile.svg);
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: 100%;
+    }
+
+    main {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .images {
+        height: 100%;
+        padding: 0;
+    }
+
+    .logo {
+        width: 100%;
+    }
+
+    .logo img {
+        height: 36px;
+    }
+
+    ion-icon {
+        font-size: 18px;
+    }
+
+    .mockup {
+        height: 240px;
+        margin-top: 60px;
+        margin-bottom: 60px;
+    }
+
+    .content {
+        margin: 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    h1 {
+        width: auto;
+        text-align: center;
+        color: white;
+        font-weight: 600;
+        margin-bottom: 20px;
+    }
+
+    p {
+        width: auto;
+        padding: 3px;
+        margin-bottom: 20px;
+        font-size: 18px;
+        font-weight: 400;
+        text-align: center;
+        color: white;
+    }
+
+    button {
+        padding: 15px 80px;
+        border: none;
+        border-radius: 30px;
+        box-shadow: 2px 2px 5px 1px rgba(0, 0, 0, 0.3);
+        color: hsl(257, 40%, 49%);
+        font-weight: 400;
+    }
+
+    button:hover {
+        color: white;
+        background-color: hsl(300, 69%, 71%);
+    }
+
+    footer {
+        padding-right: 0px;
+        margin-top: 60px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    footer .social {
+        width: 30px;
+        aspect-ratio: 1/1;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 10px;
+        border: 1px solid;
+        border-radius: 50%;
+        color: white;
+    }
+
+    footer .social:hover {
+        color: hsl(300, 69%, 71%);
+    }
+}
