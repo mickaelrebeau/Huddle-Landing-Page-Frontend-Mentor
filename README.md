@@ -32,6 +32,7 @@ This is a solution to the [Huddle Landing Page challenge on Frontend Mentor](htt
 - CSS
 - Flexbox
 - Mobile-first workflow
+- Patience
 
 
 ## Author
